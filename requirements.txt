@@ -1,0 +1,31 @@
+# AI Session Monitoring System — Python Dependencies
+
+# Core API
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+websockets>=12.0
+
+# Audio Processing
+openai-whisper>=20231117
+sounddevice>=0.4.6
+scipy>=1.11.0
+librosa>=0.10.0
+
+# NLP
+textblob>=0.17.1
+
+# Video Processing
+opencv-python>=4.8.0
+deepface>=0.0.79
+mediapipe>=0.10.0
+
+# Speaker Diarization (optional - needs HF_TOKEN)
+# pyannote.audio>=3.1.0
+
+# Data
+pandas>=2.1.0
+numpy>=1.24.0
+
+# Utilities
+python-dotenv>=1.0.0
